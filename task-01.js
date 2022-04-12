@@ -1,8 +1,8 @@
-// 1 - Elabore um algoritmo que receba um 
-// número (1-7) e devolva o dia da semana 
-// correspondente.
+// // 1 - Elabore um algoritmo que receba um 
+// // número (1-7) e devolva o dia da semana 
+// // correspondente.
 
-// função usando if
+// // função usando if
 
   let day = 0
   function corespondentDay(day) {
@@ -41,3 +41,49 @@
   console.log (corespondentDay(7))
   console.log (corespondentDay(8))
 
+// função usando switch
+
+function resultDay(daynum) {
+  switch (daynum) {
+    case 1:
+      return "janeiro"
+      break
+    case 2:
+      return "fevereiro"
+      break
+    case 3:
+      return "março"
+      break
+    case 4:
+      return "abril"
+      break
+    case 5:
+      return "maio"
+      break
+    case 6:
+      return "junho"
+      break
+    case 7:
+      return "julho"
+      break
+    case 8:
+      return "agosto"
+      break
+    case 9:
+      return "setembro"
+      break
+    case 10:
+      return "outubro"
+      break
+    case 11:
+      return "novembro"
+      break
+    case 12:
+     return "dezembro"
+     break
+    default: 
+      return "não é um mês"
+  }
+}
+
+console.log (resultDay(12))
